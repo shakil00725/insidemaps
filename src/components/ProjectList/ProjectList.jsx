@@ -53,7 +53,6 @@ const onDragEnd = (result, columns, changeColumns) => {
 
 function ProjectList({ Columns, addTags, removeTags, changeColumns, filterWord }) {
   const checkTag = (item) => {
-    // console.log('checkTag', item)
     if (!filterWord) return true;
     return item.tags.indexOf(filterWord) !== -1;
   }
