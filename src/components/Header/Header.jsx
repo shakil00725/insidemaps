@@ -11,7 +11,7 @@ const Header = ({sortList, filterSearch}) => {
     <Wrapper>
       <SubWrappers>
       <SearchBar>
-      <input onChange={filterSearch} type="text" placeholder="Search..." />
+      <input onChange={filterSearch} type="text" placeholder="Search tags here..." />
       <Icon onClick={() => sortList()} fontSize="large" />
       </SearchBar>
       </SubWrappers>
